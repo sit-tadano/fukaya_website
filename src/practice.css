@@ -6,6 +6,10 @@ h1g{color: mediumseagreen;
 h2g{color:mediumseagreen;
     font-size: 40px;}
 
-.haikei{
+.haikei1{
    background-color: lightgreen;
+
+}
+.kakomi1{
+   border: double 5px gray;
 }
