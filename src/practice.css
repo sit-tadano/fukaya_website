@@ -1,15 +1,19 @@
 p2{color:green;}
 p3{color: mediumblue;}
+h1g{color: mediumseagreen;font-size: 50px;}
+h2g{color:mediumseagreen;font-size: 40px;}
+.sidebar{width: 320px;}
+.sidebar__item{margin-bottom: 20px;}
+.sidebar__item--fixed{position: sticky;margin-bottom: 0;top: 0px;z-index: 1;}
+.backsct{background-color: rgb(102, 81, 223);}
 
-h1g{color: mediumseagreen;
-   font-size: 50px;}
-h2g{color:mediumseagreen;
-    font-size: 40px;}
+ul1{border: 0;margin: 0;outline: 0;padding: 0;;display: flex;}
+li1{list-style: none;width:150px;height: 100px;}
 
-.haikei1{
-   background-color: lightgreen;
-
-}
-.kakomi1{
-   border: double 5px gray;
-}
+a{display: block;color: black;margin-right: 30px;font-size: 30px;}
+#body{width: 810px;height: 1010px;}
+#bodymain{width: 800px;height: 1000px;}
+#boxright{float: right;width: 650px;height: 1000px;}
+#submenu{float: left;width: 100px;height: 1000px;border: double 5px black;}
+.haikei1{background-color: lightgreen;}
+.kakomi1{border: double 5px gray;}
