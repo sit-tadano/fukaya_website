@@ -18,18 +18,20 @@ a{display: block;color: black;margin-right: 30px;font-size: 30px;}
 .haikei1{background-color: lightgreen;}
 .kakomi1{border: double 5px gray;}
 
-/* tadano */
-.jump_cont{float: left;margin-right: 20px;width: 100vw;}
-.jump_list{float: left;background-color: aquamarine;}
-.jump_item{float: left;margin-right: 5px;width: 15%;
-           border: solid;border-top: none;border-bottom: none;}
+/* tadano-takinomiya.html */
+.jump_cont{float: left;margin: 2px;width: 100vw;}
+.jump_list{float: left;}
+.jump_item{float: left;margin: 2px;width: 15%;}
 .jump_item_txt{position: relative;}
-.jump_item_link{position: relative;display: block;padding-top: 9px;
-                height: 38px;font-size: 13.5px;font-weight: bold;
+.jump_item_link{position: relative;display: block;padding-top: 5px;
+                margin-left: 10px;margin-right: 10px;
+                padding-bottom: 5px;font-size: 15px;font-weight: bold;
                 text-align: center;text-decoration: none;color: black;}
-.title{position: absolute;top: 110px;width: 100%;padding: 5px 30px 55px;
+#border_right{border-right: 0.5px solid black;}
+.title{position: absolute;top: 110px;width: 100%;padding-top: 5px;padding-bottom: 50px;
        color: black;background: linear-gradient(to bottom,
        rgba(0,0,0,0) 0%, rgb(92, 224, 174) 100%);}
-.title_text{display: block;margin: 0 auto;width: 700px;font-size: 32px;
-            color: black;text-decoration: none;text-align: center;line-height: 1.5;}
+.title_text{display: block;margin: 0 auto;width: 50%;
+            font-size: 32px;color: rgb(0, 0, 0);text-decoration: none;
+            text-align: center;line-height: 1.5;}
 
