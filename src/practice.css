@@ -10,7 +10,6 @@ h2g{color:mediumseagreen;font-size: 40px;}
 ul1{border: 0;margin: 0;outline: 0;padding: 0;;display: flex;}
 li1{list-style: none;width:150px;height: 100px;}
 
-<<<<<<< HEAD
 a{display: block;color: black;margin-right: 30px;font-size: 30px;}
 #body{width: 810px;height: 1010px;}
 #bodymain{width: 800px;height: 1000px;}
@@ -18,7 +17,6 @@ a{display: block;color: black;margin-right: 30px;font-size: 30px;}
 #submenu{float: left;width: 100px;height: 1000px;border: double 5px black;}
 .haikei1{background-color: lightgreen;}
 .kakomi1{border: double 5px gray;}
-=======
 .haikei1{
    background-color: lightgreen;
 
@@ -73,4 +71,3 @@ a{display: block;color: black;margin-right: 30px;font-size: 30px;}
    line-height: 1.5;
 }
 
->>>>>>> b67d41feac1f8d404b738dbcc3a9fe36a9a01e79
