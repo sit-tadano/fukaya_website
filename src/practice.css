@@ -2,22 +2,30 @@ p2{color:green;}
 p3{color: mediumblue;}
 h1g{color: mediumseagreen;font-size: 50px;}
 h2g{color:mediumseagreen;font-size: 40px;}
-.sidebar{width: 320px;}
+.sidebar{width: 320px;height: 100%;}
 .sidebar__item{margin-bottom: 20px;}
 .sidebar__item--fixed{position: sticky;margin-bottom: 0;top: 100px;z-index: 1;}
-.sidebar2{width: 100%;}
+.sidebar2{width: 1000px;}
 .sidebar2__item{margin-bottom: 20px;width: 100%;}
 .sidebar2__item--fixed{position: sticky;margin-bottom: 0;top: 0px;z-index: 1;}
-.backsct{background-color: rgb(149, 144, 179);}
+.backsct{background-color:rgb(117, 139, 119);}
 
 ul1{border: 0;margin: 0;outline: 0;padding: 0;;display: flex;}
-li1{list-style: none;width:150px;height: 100px;}
+li1{list-style: none;width:100%;height: 100%;}
 div {display: block;}
 a{display: block;color: black;margin-right: 30px;font-size: 20px;}
-#body_index{width: 100%;height: 1010px;}
-#bodymain_index{width: 99%;height: 1000px;}
-#boxright_index{float: right;width: 78%;height: 1000px;margin-top: 0px;}
-#submenu_index{float: left;width: 15%;height: 700px;border: double 5px black;}
+#body_index{width: 1000px; ;height: 1200px;margin:0 auto;}
+#bodymain_index{width: 900px;height: 1000px;}
+#boxright_index{float: right;width: 70%;height: 1000px;margin-top: 0px;}
+#submenu_index{margin-top: 5px;float: left;width: 200px;height: 700px;border: double 5px black;background-color:antiquewhite;}
 .haikei1{background-color: lightgreen;}
 .kakomi1{border: double 5px gray;}
 h11 {position: relative;background-image: url(img/negi.png);padding: 1px 1px 1px 20px;font-size: 60px;color: black;border-radius: 0 10px 10px 0;}
+.btn_menu_mitinoeki {display: inline-block;text-decoration: none;background-color:rgb(172, 212, 111);color:black;width: 90px;height: 90px;line-height: 50px;border-radius: 10%;text-align: center;overflow: hidden;box-shadow: 5px 5px 0px 5px rgb(19, 66, 19);}
+.btn_menu_fukayaeki {display: inline-block;text-decoration: none;background-color:rgb(117, 92, 92);color: black;width: 90px;height: 90px;line-height: 50px;border-radius: 10%;text-align: center;overflow: hidden;box-shadow: 5px 5px 0px 5px rgb(65, 20, 20);}
+.btn_menu_okabeeki {display: inline-block;text-decoration: none;background-color:rgb(187, 187, 97);color:black;width: 90px;height: 90px;line-height: 50px;border-radius: 10%;text-align: center;overflow: hidden;box-shadow: 5px 5px 0px 5px rgb(99, 99, 28);}
+.btn_menu_sibusawa {display: inline-block;text-decoration: none;background-color:rgb(218, 167, 147);color:black;width: 90px;height: 90px;line-height: 50px;border-radius: 10%;text-align: center;overflow: hidden;box-shadow: 5px 5px 0px 5px sienna;}
+.btn_menu_takinomiya {display: inline-block;text-decoration: none;background-color:indianred;color:black;width: 90px;height: 90px;line-height: 50px;border-radius: 10%;text-align: center;overflow: hidden;box-shadow: 5px 5px 0px 5px rgb(73, 19, 19);}
+.btn_menu_gallery {display: inline-block;text-decoration: none;background-color:cadetblue;color:black;width: 90px;height: 90px;line-height: 50px;border-radius: 10%;text-align: center;overflow: hidden;box-shadow: 5px 5px 0px 5px darkslategrey;}
+
+.btn_menu:hover {background: #668ad8;box-shadow: 0px 0px 0px 5px #668ad8;}
